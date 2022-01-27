@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<!-- Create the document header -->
+<head>
+    <link rel=stylesheet href="./styles.css">
+    <title>Basic App Template Title</title>
+</head>
+
+<!--Create the main document body-->
+<body>
+    <div id="content-container">
+        <div id="titlebar-container">
+            <button id="close-button" onclick="window.close();">☒</button>
+            <t>Basic App Template</t>
+            <button id="optional-settings">⚙</button>
+        </div>
+        <div id="main-header">
+            <button>Header Button 1</button>
+            <button>Header Button 2</button>
+            <button>Header Button 4</button>
+            <button>Header Button 5</button>
+            <button onclick="window.open('./test-popup.html', 'Test', target='_blank_');">Test Popup Window</button>
+        </div>
+        <div id=contexarea>
+            <textarea width=50 height=100>This is our context area div. This is where the main content of our app goes! Here is a basic textarea, for example</textarea>
+        </div>
+    </div>
+</body>
